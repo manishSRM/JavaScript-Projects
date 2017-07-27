@@ -25,7 +25,6 @@ if (button) {
             count.val = -1;
             itPrints = false;
             var buttonVal = this.getAttribute("data-value");
-            console.log(buttonVal);
             pressTime = window.setTimeout(function() {
                 itPrints = true;
                 updateResult1(buttonVal);
@@ -48,5 +47,4 @@ function updateResult2(valids, count) {
         temp = temp.substr(0, temp.length - 1);
         document.getElementById('result').value = temp + valids.split(" ")[count.val];
     }
-
 }
