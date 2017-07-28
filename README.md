@@ -1,2 +1,2 @@
 # JavaScript-Projects
-. It contains of beginner level projects.
+. It contains beginner level projects.
