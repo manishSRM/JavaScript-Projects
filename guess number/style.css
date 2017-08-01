@@ -1,0 +1,30 @@
+body {
+    background: #3395e0;
+}
+
+.header {
+    text-align: center;
+    font-size: 8vh;
+    font-weight: 100;
+}
+
+.boxes {
+    width: 150px;
+    height: 150px;
+    margin-top: 6px;
+    border-radius: 10px;
+    //box-shadow: 1px 1px 1px #000;
+}
+
+.greater {
+    background: url("Greater_than_sign.png") center center rgba(255, 0, 0, 0.7);
+    background-size: cover;
+}
+
+.less {
+    background: yellow;
+}
+
+.equal {
+    background: green;
+}
